@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-app/static/css/main.88d7e9ee.css",
+    "main.js": "/react-app/static/js/main.55256fb3.js",
+    "static/media/History.png": "/react-app/static/media/History.fb547326b27974008e51.png",
+    "static/media/Fundraising.png": "/react-app/static/media/Fundraising.c5aa5ef7d87483bf0dda.png",
+    "static/media/Gaming.png": "/react-app/static/media/Gaming.c64b312dfeb9531b7952.png",
+    "static/media/Friends.png": "/react-app/static/media/Friends.21b54476ee65f2b67767.png",
+    "static/media/Gallery.png": "/react-app/static/media/Gallery.40f7fb40cc4372239ff2.png",
+    "index.html": "/react-app/index.html",
+    "main.88d7e9ee.css.map": "/react-app/static/css/main.88d7e9ee.css.map",
+    "main.55256fb3.js.map": "/react-app/static/js/main.55256fb3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88d7e9ee.css",
+    "static/js/main.55256fb3.js"
+  ]
+}
