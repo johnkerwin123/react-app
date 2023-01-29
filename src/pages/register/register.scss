@@ -1,0 +1,103 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+.register {
+  height: 100vh;
+  background-color: rgb(119, 192, 197);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+
+  .card {
+    width: 50%;
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    min-height: 400px;
+    overflow: hidden;
+  
+      .right {
+        flex: 1;
+        background: linear-gradient(rgba(22, 74, 143, 0.562),rgba(22, 74, 143, 0.589)), url(https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80) center;
+        background-size: cover;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        color: white;
+        
+        h1{
+          font-size: 60px;
+          line-height: 70px;
+        }
+        p {
+          font-size: 15px;
+        }
+        span {
+          font-size: 14px;
+        }
+  
+        button {
+          width: 50%;
+          padding: 10px;
+          border: none;
+          background-color: white;
+          font-weight: bold;
+          color: rgb(164, 115, 192);
+          border-radius: 4px;
+          cursor: pointer ;
+        }
+  
+        button:hover {
+          background-color: rgb(164, 115, 192);
+          color: white;
+          transition: 0.5s ease;
+        }
+      }
+  
+      .left {
+        flex: 1;
+        padding: 40px;
+        display: flex ;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+  
+        h1 {
+          color: #555;
+        }
+  
+        form {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+        }
+  
+        input {
+          border: none;
+          border-bottom: 1px solid lightgray;
+          padding: 20px 10px;
+        }
+  
+        button {
+          width: 50%;
+          padding: 10px;
+          border: none;
+          border-radius: 4px;
+          background-color: rgb(164, 115, 192);
+          color: white;
+          font-weight: bold;
+          cursor: pointer;
+        }
+  
+        button:hover {
+          border: 1px solid rgb(164, 115, 192);
+          background-color: white;
+          color: rgb(164, 115, 192);
+          transition: 0.5s ease;
+        }
+      }
+    }
+  }
